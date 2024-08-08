@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:menuCategory="container">
+        <item
+            android:id="@+id/favorite"
+            android:icon="@drawable/favorite"
+            android:title="@string/t_favorite"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/setting"
+            android:title="@string/t_setting"
+            app:showAsAction="ifRoom" />
+
+    </group>
+</menu>
